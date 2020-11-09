@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace BinarySearchTreez
 {
-    class Program
+    public class Node
     {
-        static void Main(string[] args)
+        public int Data;
+        public Node rightNode;
+        public Node leftNode;
+
+
+        public Node(int data)
         {
-            
+            Data = data;
         }
     }
 }
